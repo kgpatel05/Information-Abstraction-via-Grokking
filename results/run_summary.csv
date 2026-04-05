@@ -1,0 +1,7 @@
+run_dir,arch,p,train_frac,learning_rate,weight_decay,num_epochs,seed,hidden_dim,d_model,n_heads,d_mlp,n_layers,final_train_acc,final_test_acc,best_test_acc,best_test_epoch,memorization_epoch,grokking_epoch_test50,total_epochs,final_param_norm,grokked
+20260405_182452_modadd_p97_trainfrac0.3_h256_wd0.01_seed0,unknown,,0.3,0.001,0.01,300,0.0,,,,,,1.0,0.0,0.006224381357218764,1,94,,300,128.88024864270017,no
+20260405_182913_modadd_p97_trainfrac0.2_h512_wd0.1_seed0,unknown,97,0.2,0.001,0.1,800,0,512,,,,,1.0,0.0,0.0071732199787460146,1,43,,800,126.50289406875056,no
+20260405_183058_modadd_p97_trainfrac0.2_h512_wd1.0_seed0,unknown,97,0.2,0.001,1.0,800,0,512,,,,,1.0,0.0,0.0071732199787460146,1,64,,800,75.77226612546576,no
+20260405_183124_modadd_p97_trainfrac0.3_h512_wd0.1_seed0,unknown,97,0.3,0.001,0.1,800,0,512,,,,,1.0,0.0,0.0050098679216638835,1,54,,800,150.2232657802037,no
+20260405_183918_modadd_transformer_p97_trainfrac0.3_tr_d128_h4_mlp512_L2_wd0.01_seed0,transformer,97,0.3,0.001,0.01,50,0,256,128,4,512,2,1.0,0.024138454531653256,0.024593897069986336,49,25,,50,124.37970627302832,no
+20260405_184000_modadd_transformer_p97_trainfrac0.3_tr_d128_h4_mlp512_L2_wd1.0_seed0,transformer,97,0.3,0.001,1.0,1000,0,256,128,4,512,2,1.0,1.0,1.0,147,40,124,1000,22.438788725071586,yes

@@ -1,0 +1,26 @@
+# Training outputs
+runs/
+
+# Local notes and scratch
+memory/
+
+# Project metadata not versioned here
+PROJECT_STATUS.md
+EXPERIMENT_LOG.md
+DECISIONS.md
+NEXT_STEPS.md
+TODO.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
